@@ -1,0 +1,13 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cell {
+    flex: 0 0 33%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    background-color: grey;
+  }
